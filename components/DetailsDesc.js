@@ -6,7 +6,7 @@ import { COLORS, FONTS, SIZES } from "../constants";
 
 const DetailsDesc = ({ data }) => {
     const [text, setText] = useState(data.description.slice(0, 100));
-    const [readMore,setreadMore] = useState(false);
+    const [readMore, setReadMore] = useState(false);
   return (
     <>
     <View style={{
@@ -47,10 +47,10 @@ const DetailsDesc = ({ data }) => {
                 onPress={() => {
                     if(!readMore) {
                         setText(data.description);
-                        setreadMore(true);
+                        setReadMore(true);
                     } else {
                         setText(data.description.slice(0, 100));
-                        setreadMore(false);
+                        setReadMore(false);
                     }
                 }}
                 >

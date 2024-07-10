@@ -23,7 +23,8 @@ const App = () => {
     InterLight: require("./assets/fonts/Inter-Light.ttf"),
   });
 
-  if(!loaded) return null
+  if(!loaded) return null;
+  
   return (
     <NavigationContainer theme={theme}>
       <Stack.Navigator screenOptions={{headerShown: false}} initialRouteName="Home">

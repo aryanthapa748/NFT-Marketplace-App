@@ -1,4 +1,4 @@
-import react from "react";
+import React from 'react';
 import { View, Text, SafeAreaView, Image, StatusBar, FlatList } from "react-native";
 
 import { COLORS, SIZES, SHADOWS, FONTS, assets } from "../constants";
@@ -29,7 +29,7 @@ const Details = ({ route, navigation }) => {
   const { data } = route.params;
 
   return (
-    <SafeAreaView style={{ flex:1 }}>
+    <SafeAreaView style={{ flex:1, backgroundColor: COLORS.white }}>
       <FocusedStatusBar
       barStyle= "dark-content"
       backgroundColor= "transparent"
@@ -43,7 +43,7 @@ const Details = ({ route, navigation }) => {
         paddingVertical: SIZES.font,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: 'rgba(255,255,255,0.5',
+        backgroundColor: 'rgba(255,255,255,0.5)',
         zIndex: 1,
       }}>
         <RectButton minWidth={ 170 } fontSize={SIZES.large} {...SHADOWS.dark} />
@@ -54,12 +54,12 @@ const Details = ({ route, navigation }) => {
       renderItem={({ item }) => <DetailsBid bid={item} />}
       keyExtractor={(item) => item.id}
       showsVerticalScrollIndicator={false}
-      contentContainerStyle={{ paddingBottom: SIZES.extraLarge * 3}}
+      contentContainerStyle={{ paddingBottom: SIZES.extraLarge * 3, backgroundColor: COLORS.white}}
       ListHeaderComponent={() => (
         <React.Fragment>
           <DetailsHeader data={data} navigation={navigation}/>
           <SubInfo />
-          <View style={{ padding: SIZES.font }}>
+          <View style={{ padding: SIZES.font, backgroundColor: COLORS.white }}>
             <DetailsDesc data={data} />
 
             {data.bids.length > 0 && (

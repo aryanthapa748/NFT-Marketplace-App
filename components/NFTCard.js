@@ -61,4 +61,4 @@ const NFTCard = ({data}) => {
   )
 }
 
-export default NFTCard
+export default NFTCard;
