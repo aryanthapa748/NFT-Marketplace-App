@@ -1,4 +1,4 @@
-# React Native NFT Marketplace App
+# NFT Marketplace App - A Modern UI/UX React Native Application
 **Introduction**
 Welcome to the ultimate React Native NFT Marketplace Application! This project showcases a modern cross-platform app for buying and selling NFTs. This project is a mobile application developed using JavaScript, React Native, Expo, React.js and Node.js. It serves as a foundation for creating cross-platform mobile apps with a focus on navigation and screen management.
 
