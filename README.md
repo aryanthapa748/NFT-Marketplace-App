@@ -1,6 +1,14 @@
 # NFT Marketplace App - A Modern UI/UX React Native Application
 **Introduction**
-Welcome to the ultimate React Native NFT Marketplace Application! This project showcases a modern cross-platform app for buying and selling NFTs. This project is a mobile application developed using JavaScript, React Native, Expo, React.js and Node.js. It serves as a foundation for creating cross-platform mobile apps with a focus on navigation and screen management.
+Welcome to the ultimate React Native NFT Marketplace Application! This project showcases a modern cross-platform app for buying and selling NFTs. This project is a mobile application developed using JavaScript, React Native, Expo, React.js and Node.js. It serves as a foundation for creating cross-platform mobile apps with a focus on navigation and screen management. To see the landing page/website of the application, [navigate to this repository](https://github.com/aryanthapa748/nft-marketplace-landing-webpage) and follow the instructions from README file there. 
+
+## To see the actual Application in you device
+To experience the application in real-time, download the **Expo Go App** from the App Store or Google Play, scan the QR code provided when clicking the **View It on Expo button** on the landing page to instantly preview it on your mobile device.
+
+**Users have to download the Expo Go App to view it live on your device by scanning the QR code.**
+
+**QR CODE PROVIDED**
+![Screenshot](https://github.com/aryanthapa748/NFT-Marketplace-App/blob/main/screenshot/Screenshot%202024-07-13%20at%2011.42.18%E2%80%AFPM.png)
 
 ## Features
 
